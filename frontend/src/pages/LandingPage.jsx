@@ -4,9 +4,9 @@ import Carousel from '../components/Carousel';
 function LandingPage() {
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-4xl font-bold text-center mb-4">Welcome to Swap Platform</h1>
+      <h1 className="text-4xl font-bold text-center mb-4">Welcome to ReWear Platform</h1>
       <p className="text-lg text-center mb-8">
-        Swap items, earn points, and connect with others! Start swapping today.
+        ReWear items, earn points, and connect with others! Start swapping today.
       </p>
       <div className="flex justify-center space-x-4 mb-8">
         <Link to="/swaps" className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
