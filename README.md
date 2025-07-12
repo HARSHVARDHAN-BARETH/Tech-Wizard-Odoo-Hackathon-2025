@@ -4,9 +4,9 @@ A submission for **Tech-Wizard Odoo Hackathon 2025**
 **Problem Statement 03 – Sustainable Fashion Platform**
 
 ## 👨‍💻 Team Members
-- **Harshvardhan Bareth**
-- **Rahul Patel**
-- **Ankit Dhanawat**
+ **Harshvardhan Bareth** –barethharshvardhan@gmail.com
+- **Rahul Patel** -rahulpateldz098@gmail.com
+- **Ankit Dhanawat** -ankitd0811@gmail.com
 
 ---
 
