@@ -21,7 +21,7 @@ app.use(cors());
 
 // Root Route
 app.get('/', (req, res) => {
-  res.send('Welcome to the Swap Platform API');
+  res.send('Welcome to the Swap Platform APImy name is rahul and this is my first hackathon');
 });
 
 // Routes
