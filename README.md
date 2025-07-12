@@ -1,39 +1,72 @@
-# Tech-Wizard-Odoo-Hackathon-2025
-1. Harshvardhan Bareth
-2. Rahul Patel
-3. Ankit Dhanawat
+# 👚 ReWear – Community Clothing Exchange
 
-# Problem Statement 03
+A submission for **Tech-Wizard Odoo Hackathon 2025**  
+**Problem Statement 03 – Sustainable Fashion Platform**
 
-## ReWear – Community Clothing Exchange
-Overview:
-Develop ReWear, a web-based platform that enables users to exchange unused clothing
-through direct swaps or a point-based redemption system. The goal is to promote sustainable
-fashion and reduce textile waste by encouraging users to reuse wearable garments instead of
-discarding them.
+## 👨‍💻 Team Members
+- **Harshvardhan Bareth**
+- **Rahul Patel**
+- **Ankit Dhanawat**
 
-Features:
-User Authentication
-Email/password signup and login
-Problem Statement 3:-
-Landing Page
-Platform introduction
-Calls-to-action: “Start Swapping”, “Browse Items”, “List an Item”
-Featured items carousel
-User Dashboard
-Profile details and points balance
-Uploaded items overview
-Ongoing and completed swaps list
-Item Detail Page
-Image gallery and full item description
-Uploader info
-Options: “Swap Request” or “Redeem via Points”
-Item availability status
-Add New Item Page
-Upload images
-Enter title, description, category, type, size, condition, and tags
-Submit to list item
-Admin Role
-Moderate and approve/reject item listings
-Remove inappropriate or spam items
-Lightweight admin panel for oversight
+---
+
+## 🌍 Overview
+
+**ReWear** is a web-based platform that encourages sustainable fashion by enabling users to exchange their unused clothing through direct swaps or a point-based redemption system. This project aims to reduce textile waste and promote mindful consumption through community-driven sharing.
+
+---
+
+## 🚀 Key Features
+
+### 🧾 User Authentication
+- Secure signup and login using email and password
+
+### 🏠 Landing Page
+- Platform introduction
+- Call-to-action buttons:  
+  → “Start Swapping”  
+  → “Browse Items”  
+  → “List an Item”
+- Carousel showcasing featured or trending items
+
+### 📊 User Dashboard
+- Profile information and points balance
+- List of uploaded items
+- Overview of ongoing and completed swaps
+
+### 📦 Item Detail Page
+- Item image gallery and full description
+- Uploader information
+- Options to:
+  - Request a swap
+  - Redeem via points (if eligible)
+- Display of availability status
+
+### ➕ Add New Item
+- Upload multiple item images
+- Enter key details:
+  - Title
+  - Description
+  - Category, Type, Size
+  - Condition and relevant tags
+- Submit form to list the item on platform
+
+### 🛠️ Admin Panel
+- Lightweight moderation dashboard
+- Approve or reject item listings
+- Remove inappropriate or spam content
+
+---
+
+## 🧰 Tech Stack
+
+> *(Adjust this section based on your actual technologies)*
+
+- **Frontend**: HTML, CSS, JavaScript (React Native)
+- **Backend**: Node.js Express.js
+- **Authentication**: JWT 
+- **Database**:  MongoDB 
+- **Deployment**: Vercel 
+
+---
+
