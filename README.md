@@ -70,7 +70,8 @@ A submission for **Tech-Wizard Odoo Hackathon 2025**
 
 ---
 
-## ⚙️ Getting Started
+🎥 Demo Video
+https://youtu.be/_1VFJLXyMJU?si=z0rS7QTnIbgQHCOR
 
 ### ✅ Prerequisites
 
