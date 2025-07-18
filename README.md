@@ -1,4 +1,4 @@
-# 👚 ReWear – Community Clothing Exchange
+# ReWear – Community Clothing Exchange
 
 A submission for **Tech-Wizard Odoo Hackathon 2025**  
 **Problem Statement 03 – Sustainable Fashion Platform**
