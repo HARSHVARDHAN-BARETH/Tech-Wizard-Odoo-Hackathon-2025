@@ -1,126 +1,92 @@
-👚 ReWear – Community Clothing Exchange
-A submission for Tech-Wizard Odoo Hackathon 2025Problem Statement 03 – Sustainable Fashion Platform
-👨‍💻 Team Members
+# 👚 ReWear – Community Clothing Exchange
 
-Harshvardhan Bareth – barethharshvardhan@gmail.com  
-Rahul Patel – rahulpateldz098@gmail.com  
-Ankit Dhanawat – ankitd0811@gmail.com
+A submission for **Tech-Wizard Odoo Hackathon 2025**  
+**Problem Statement 03 – Sustainable Fashion Platform**
 
+## 👨‍💻 Team Members
 
-🌍 Overview
-ReWear is a web-based platform designed to promote sustainable fashion by enabling users to exchange their unused clothing through direct swaps or a point-based redemption system. This initiative aims to reduce textile waste and encourage mindful consumption within a community-driven sharing ecosystem.
+- **Harshvardhan Bareth** – [barethharshvardhan@gmail.com](mailto:barethharshvardhan@gmail.com)  
+- **Rahul Patel** – [rahulpateldz098@gmail.com](mailto:rahulpateldz098@gmail.com)  
+- **Ankit Dhanawat** – [ankitd0811@gmail.com](mailto:ankitd0811@gmail.com)
 
-🚀 Key Features
-🧾 User Authentication
+---
 
-Secure signup and login using email and password.
+## 🌍 Overview
 
-🏠 Landing Page
+**ReWear** is a community-driven web platform that promotes sustainable fashion by allowing users to exchange unused clothes through either **direct swaps** or a **point-based redemption system**. Our goal is to reduce textile waste and inspire eco-conscious behavior through clothing reuse.
 
-Platform introduction with a welcoming design.
-Call-to-action buttons:  
-"Start Swapping"  
-"Browse Items"  
-"List an Item"
+---
 
+## 🚀 Key Features
 
-Carousel showcasing featured or trending items.
+### 🧾 User Authentication
+- Secure email/password-based login and signup
+- JSON Web Token (JWT) based session management
 
-📊 User Dashboard
+### 🏠 Landing Page
+- Platform introduction with clean UI
+- Calls to Action:  
+  - `Start Swapping`  
+  - `Browse Items`  
+  - `List an Item`
+- Carousel for trending or featured items
 
-Display profile details and points balance.
-Overview of uploaded items.
-List of ongoing and completed swaps.
+### 📊 User Dashboard
+- View profile information and points balance
+- Manage uploaded items
+- Track swap history (ongoing & completed)
 
-📦 Item Detail Page
+### 📦 Item Detail Page
+- Multiple image gallery
+- Detailed descriptions
+- Information about uploader
+- Swap or redeem options (if item is eligible)
+- Status: Available / Swapped
 
-Image gallery and detailed item description.
-Uploader information.
-Options to:
-Request a swap
-Redeem via points (if eligible)
+### ➕ Add New Item
+- Upload multiple images
+- Fill out fields:
+  - Title, Description
+  - Category, Type, Size
+  - Condition, Tags
+- Submit form to list item
 
+### 🛠️ Admin Panel
+- Lightweight moderation dashboard
+- Approve or reject listings
+- Remove spam or inappropriate content
 
-Item availability status.
+---
 
-➕ Add New Item
+## 🧰 Tech Stack
 
-Upload multiple item images.
-Input fields for:
-Title
-Description
-Category, Type, Size
-Condition and relevant tags
+| Layer       | Technology               |
+|-------------|---------------------------|
+| Frontend    | React.js, HTML, CSS, JS   |
+| Backend     | Node.js, Express.js       |
+| Database    | MongoDB                   |
+| Auth        | JWT (JSON Web Tokens)     |
+| Deployment  | Vercel                    |
 
+---
 
-Submit form to list the item.
+## ⚙️ Getting Started
 
-🛠️ Admin Panel
+### ✅ Prerequisites
 
-Lightweight moderation dashboard.
-Approve or reject item listings.
-Remove inappropriate or spam content.
+- Node.js v14.x or later
+- npm or yarn
+- MongoDB (local or cloud)
 
+### 📦 Installation
 
-🧰 Tech Stack
-
-Frontend: HTML, CSS, JavaScript (React.js)
-Backend: Node.js, Express.js
-Authentication: JWT
-Database: MongoDB
-Deployment: Vercel
-
-
-🚀 Getting Started
-Prerequisites
-
-Node.js (v14.x or later)
-npm or yarn
-MongoDB instance (local or cloud)
-
-Installation
-
-Clone the repository:git clone https://github.com/your-username/rewear.git
+```bash
+# Clone the repository
+git clone https://github.com/your-username/rewear.git
 cd rewear
 
-
-Install dependencies:npm install
-
-
-Set up environment variables:
-Create a .env file in the root directory.
-Add the following:VITE_API_URL=http://localhost:5000
-JWT_SECRET=your-secret-key
-
-
-
-
-Start the development server:npm start
-
-
-
-Running the Backend
-
-Navigate to the server directory (if separated):cd server
+# Install frontend dependencies
 npm install
-npm start
 
-
-
-
-🛠️ Usage
-
-Visit the landing page to explore the platform.
-Sign up or log in to access your dashboard.
-List items, browse others' listings, and initiate swaps or redemptions.
-Admins can log in to moderate listings via the admin panel.
-
-
-🎥 Demo Video
-https://youtu.be/_1VFJLXyMJU?si=z0rS7QTnIbgQHCOR
-
-🤝 Contributing
-We welcome contributions! Please fork the repository and submit pull requests.  
-
-
-
+# Setup environment variables
+touch .env
